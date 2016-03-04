@@ -2,7 +2,7 @@
   "name": "freicon/composer-local-library",
   "description": "a library for using a local library folder for dependancy management",
   "minimum-stability": "dev",
-  "license": "BSD",
+  "license": "MIT",
   "authors": [
     {
       "name": "Frank Hildebrandt",
