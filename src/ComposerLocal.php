@@ -15,7 +15,7 @@ class ComposerLocal implements PluginInterface, EventSubscriberInterface
     public function activate(Composer $composer, IOInterface $io)
     {
         $this->addPathIfExists("/usr/lib/php/packets", $composer, $io);
-        $this->addPathIfExists("/var/lib/snagview/packets", $composer, $io);
+        $this->addPathIfExists("/var/composer/packets", $composer, $io);
         $this->addPath("../*", $composer, $io);
     }
 
