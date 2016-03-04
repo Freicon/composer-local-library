@@ -13,7 +13,9 @@
     "composer/composer": "1.0.*"
   },
   "autoload": {
-    "Freicon\\Composer\\Local\\": "./src"
+    "psr-4": {
+      "Freicon\\Composer\\Local\\": "./src"
+    }
   },
   "extra": {
     "class": "Freicon\\Composer\\Local\\ComposerLocal"
