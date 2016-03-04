@@ -1,0 +1,21 @@
+{
+  "name": "freicon/composer-local-library",
+  "description": "a library for using a local library folder for dependancy management",
+  "minimum-stability": "dev",
+  "license": "BSD",
+  "authors": [
+    {
+      "name": "Frank Hildebrandt",
+      "email": "fhildebrandt@freicon.de"
+    }
+  ],
+  "require-dev": {
+    "composer/composer": "1.0.*"
+  },
+  "autoload": {
+    "Freicon\\Composer\\Local\\": "./src"
+  },
+  "extra": {
+    "class": "Freicon\\Composer\\Local\\ComposerLocal"
+  }
+}
